@@ -14,9 +14,9 @@
 &ensp;&ensp;1. 在 RARLab 官方下载安装库文件[http://www.rarlab.com/rar/UnRARDLL.exe ](http://www.rarlab.com/rar/UnRARDLL.exe )  
 &ensp;&ensp;2. 默认安装路径为 C:\Program Files (x86)\UnrarDLL\  
 &ensp;&ensp;3. 添加环境变量 UNRAR_LIB_PATH 键值 C:\Program Files (x86)\UnrarDLL\x64\UnRAR64.dll，如果是32位就是 C:\Program Files (x86)\UnrarDLL\UnRAR.dll  
-*Linux*
+*Linux*  
 &ensp;&ensp;1. 下载库文件[https://www.rarlab.com/rar/unrarsrc-5.6.8.tar.gz](https://www.rarlab.com/rar/unrarsrc-5.6.8.tar.gz)  
-&ensp;&ensp;2. `$ make lib
+&ensp;&ensp;2. `$ make lib  
        $ make install-lib`  
 &ensp;&ensp;3. 添加环境变量  export UNRAR_LIB_PATH=/usr/lib/libunrar.so  
 
