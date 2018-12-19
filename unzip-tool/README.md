@@ -20,6 +20,13 @@
        $ make install-lib`  
 &ensp;&ensp;3. 添加环境变量  export UNRAR_LIB_PATH=/usr/lib/libunrar.so  
 
+### 使用方式
+```
+设置文件路径  
+$ python3 zipper.py  
+$ python3 zipperpro.py -v
+```
+
 ### 效果图  
 ![1.png](./1.png "1.png")
 ![3.png](./3.png "3.png")  
