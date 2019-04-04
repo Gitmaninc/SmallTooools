@@ -1,0 +1,3 @@
+xlwt
+unicodecsv
+eml-parser
